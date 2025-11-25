@@ -19,10 +19,7 @@ public class TileGenerator : MonoBehaviour
                 if (floormap.HasTile(position))
                 {
                     if (Random.Range(0, _noise) == 0)
-                    {
-
                         tilemap.SetTile(position, _tile);
-                    }
                 }
             }
         }
